@@ -1,0 +1,28 @@
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.hero-button {
+    /* font-family удален, так как наследуется благодаря общему сбросу */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    /* cursor: pointer удален, так как он уже задан глобально в common.css */
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}

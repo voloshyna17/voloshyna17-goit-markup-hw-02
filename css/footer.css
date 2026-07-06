@@ -1,0 +1,28 @@
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer .logo-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    /* Виправлено */
+    letter-spacing: 0.03em;
+    /* Додано */
+    text-transform: uppercase;
+    /* Додано трансформацію */
+    color: #F4F4FD;
+}
+
+.footer .logo-link span {
+    color: #4D5AE5;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* Додано */
+    color: #F4F4FD;
+}

@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+/* Глобальне скидання відступів для елементів за ТЗ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Спільні стилі для списків */
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Прибираємо підкреслення у всіх посилань за замовчуванням */
+a {
+    text-decoration: none;
+}
+
+/* Стилі для кнопок за замовчуванням */
+button {
+    cursor: pointer;
+    font-family: inherit;
+    /* ДОБАВЛЕНО: чтобы кнопка наследовала Roboto из body */
+}
